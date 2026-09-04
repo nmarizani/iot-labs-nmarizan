@@ -63,7 +63,7 @@ function setTemperature(name, newTemperature) {
     }
 
     if (!utilities.isTemperatureValid(newTemperature)) {
-        return 'Temperature msut be a number between 10°C and 32°C.';
+        return 'Temperature must be a number between 10°C and 32°C.';
     }
 
     room.temperature = Number(newTemperature);

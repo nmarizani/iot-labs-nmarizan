@@ -20,6 +20,9 @@ function isTemperatureValid(value) {
     if (isNaN(number)) {
         return false;
     }
+    if (number < 10 || number > 32) {
+        return false
+    }
     return true;
 }
 
